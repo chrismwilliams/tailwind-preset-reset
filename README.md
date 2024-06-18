@@ -1,14 +1,12 @@
 # Tailwind Preset Reset
 
-Removes **a lot** of Tailwind's core plugins.
+## About
 
-## Resets
+This is a Tailwind CSS preset that removes **a lot** of Tailwind's core plugins, inc. preflight.
 
 ```js
 corePlugins: {
-  // Disables Tailwind's reset etc
   preflight: false,
-
   borderColor: false,
   borderOpacity: false,
   borderSpacing: false,

@@ -1,11 +1,10 @@
 import type { Config } from "tailwindcss";
 
-const basePreset = {
+const basePreset: Config = {
   content: [],
   corePlugins: {
-    // Disables Tailwind's reset etc
+    // Disables Tailwind's reset
     preflight: false,
-
     borderColor: false,
     borderOpacity: false,
     borderSpacing: false,
@@ -23,6 +22,6 @@ const basePreset = {
     touchAction: false,
     scrollSnapType: false,
   },
-} satisfies Config;
+};
 
 export default basePreset;
