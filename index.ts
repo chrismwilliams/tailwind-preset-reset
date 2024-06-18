@@ -1,5 +1,8 @@
 import type { Config } from "tailwindcss";
 
+/**
+ * @see https://github.com/chrismwilliams/tailwind-preset-reset/blob/main/README.md for usage
+ */
 const basePreset: Config = {
   content: [],
   corePlugins: {
